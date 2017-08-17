@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Login Page</title>
+  </head>
+  <body>
+
+    <h1 id="loginHeader">Please enter your login information below</h1>
+    <div class="main">
+      <h1>{{errorMessage}}</h1>
+      <form class="" action="/authorization" method="post">
+        <div class="">
+          <input id="username" type="text" name="username" value="" placeholder="Username">
+        </div>
+        <div class="">
+          <input id="password" type="password" name="password" value="" placeholder="Password">
+        </div>
+        <div class="">
+          <input id="submitButton" type="submit" name="" value="SIGN IN">
+        </div>
+    </form>
+    <div class="">
+      <h3 id=pageLoads>{{pageLoads}}</h3>
+    </div>
+  </div>
+  </body>
+</html>
